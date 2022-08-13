@@ -22,9 +22,11 @@ h1 {
 }
 #button-container {
     text-align: center;
+    height: 150px;
 }
 
 #github {
     font-size:33.5px;
+    float:right;
 }
 
