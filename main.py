@@ -25,9 +25,9 @@ server = app.server
 app.layout = html.Div([
     html.Link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"),
     html.Div(html.H1("GoodyFeed Title Generator")),
-    html.Div(html.Button('Generate', id='generate', n_clicks = 0)),
     html.Div(id = 'output', children = 'Generate a headline'),
-    html.A(html.I(className="fa fa-github"), href = "https://github.com/xghan99/GFeedNLG", id="github")
+    html.Div(html.Button('Generate', id='generate', n_clicks=0),id="button-container"),
+    html.Div(html.A(html.I(className="fa fa-github"), href = "https://github.com/xghan99/GFeedNLG", id="github"))
 ])
 
 @app.callback(

@@ -1,17 +1,30 @@
 h1 {
     font-size:50px;
-    color: #5193da
+    color: #5193da;
+    text-align: center
 }
 
 #generate {
      background-color: #5193da;
      color: white;
      font-weight: bold;
+     font-size: 20px;
+     height:40px;
+     width: 120px;
+     text-align:center
 
 }
 #output {
     font-size:33.5px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    height: 90px;
+}
+#button-container {
+    text-align: center;
+}
+
+#github {
+    font-size:33.5px;
 }
 
